@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+         // wap to check user eligible for vote or not using nested if else.
+               
+        let age = prompt("Enter your age:");
+        
+
+        if (age >= 0) 
+        {
+        if (age >=100) {
+            document.writeln("age more then 100 is not allow ");
+        }  
+        if (age >= 18) {
+            document.writeln("You are eligible to vote.");
+        } else {
+            document.writeln("You are not eligible to vote.");
+        }
+        } else {
+            document.writeln("Invalid age entered.");
+        }
+    </script>
+</body>
+</html>
